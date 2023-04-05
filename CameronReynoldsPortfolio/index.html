@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Cameron Reynolds | Software Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Cameron Reynolds</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/CameronReynoldsHeadshot.JPG"
+        alt="cameron-reynolds"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Welcome to my portfolio website! My name is Cameron Reynolds. I am an up and coming software developer 
+          looking to develop my career and put my skills to use for creating something meaningful. I am a recent graduate
+          of North Carolina State University, where I studied computer science and sport management. During my time at NC
+          State, I enjoyed learning about computer science from one of the best schools in the country to offer the program.
+          Go Pack!
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I will use this section to tell you a little more about me - including my background, education, and qualifications.
+        I am from Columbia, North Carolina, a small town inland from the Outer Banks of North Carolina.
+        I went to a small high school consisting of about 140 people total, where I graduated as a Salutatorian 
+        and received a full-ride scholarship to North Carolina State University. Growing up in a coastal town, 
+        I worked on a crab boat during the summers where I made my spending money. Throughout high school, I enjoyed 
+        playing baseball and basketball, while spending my other free time fishing and doing water sports. I recently 
+        took on playing a lot of golf and snowboarding whenever I get the chance!
+      </p>
+      <p>
+        As an undergraduate at North Carolina State University, I took many computer science classes that
+         laid the basis for where I am today. At NC State I would learn various languages: Java, C, C++,
+          and a little HTML. I learned the fundamentals of programming and the process of the software development
+          life cycle. Here I gained in-depth knowledge about object oriented programming, data structures, operating
+          systems, and distributed systems. Using this knowledge, I applied it to real world projects through our 
+          coursework. Below are some of the classes that I took at NC State.
+      </p>
+      <ul class="classes">
+        <li>CSC116: Introduction to Computing - Java</li>
+        <li>CSC216: Programming Concepts - Java </li>
+        <li>CSC226: Discrete Mathematics</li>
+        <li>CSC230: C/Software Tools - C/C++</li>
+        <li>CSC236: Operating Systems - C/Java</li>
+        <li>CSC316: Data Structures - Java</li>
+      </ul>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+        consequuntur labore? Ea totam voluptas amet!
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <!-- Make sure to link icons in the footer of webpage -->
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/java-icon.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/c-icon.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/c++-icon.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/javascript-icon.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/html-5icon.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/css3-icon.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/project-pics/UserInterface.png"
+            alt="Project Name"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Pack Scheduler</h3>
+          <p class="project-details">
+            Pack Scheduler was one of my favorite projects that I completed in my time at NC State because I was able to make sense
+            of something I had to do every semester and know what was actually going on behind the scenes!
+            This project mocks the process of registering for classes that all NC State students do with each
+            new semester. Our version of this course registration system provides users with all of the functionality
+            that the normal system used by NC State provides. The program has dashboards for users dependent on their role: student, teacher, or registrar.
+            Each role has different functionalities and views for these users. Overall, this project taught me many of the
+            principles of Object Oriented Programing. This program demonstrates the use of object oriented programming
+            with abstraction, while also using encryption, data structures, and IO.
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/MockProjectPic.png"
+            alt="Project Name"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Project 2 Title</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+
+        <div class="project-container project-card">
+          <img
+            src="assets/images/project-pics/website-picture.png"
+            alt="Project Name"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Portfolio Website</h3>
+          <p class="project-details">
+            One of my most important projects yet, creating my portfolio website taught me a lot about some new languages
+            I had not yet dabbled in, while also teaching me some important lessons about life. During the course of this project's
+            creation I worked two jobs, devoting as much of my freetime to watching YouTube videos and practing my newly learned skills
+            in HTML, CSS, and JavaScript. Throughout the creation of the website, my commitment to complete this website reinforced the 
+            values I was taught as a child. Nothing in life comes without sacrifice - if you want to accomplish something, you have to
+            put forward the time and effort. 
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="send-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                style="padding: 0.5rem; color: #4756df"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                style="padding: 0.5rem; color: #4756df"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                style="padding: 0.5rem; color: #4756df"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="www.linkedin.com/in/cameronreynolds" target="_blank">
+        <img
+          src="assets/icons/linkedin-icon.gif"
+          alt="LinkedIn"
+          loading="lazy"
+          class="socicon"
+        />
+      </a>
+
+      <a href="#" target="_blank">
+        <img
+          src="assets/icons/github-icon.gif"
+          alt="Github"
+          loading="lazy"
+          class="socicon"
+        />
+      </a>
+    </div>
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up">
+      <img
+        src="assets/icons/up-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+      />
+    </i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://www.linkedin.com/in/cameronreynolds" target="_blank"
+          >Cameron Reynolds</a
+        >
+      </p>
+    </footer>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
