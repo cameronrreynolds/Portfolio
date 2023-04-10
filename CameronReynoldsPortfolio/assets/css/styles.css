@@ -382,7 +382,13 @@ footer {
 
   .projects-container {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 19rem;
+    margin-top: 21rem;
   }
+
 
   .project-container {
     width: 20.875rem;
